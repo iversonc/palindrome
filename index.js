@@ -3,11 +3,6 @@ String.prototype.reverse = function() {
   return Array.from(this).reverse().join("");
 }
 
-// Adds 'blank' method to all strings.
-String.prototype.blank = function() {
-  return !!this.match(/^\s*$/g);
-}
-
 // Defines a Phrase object.
 function Phrase(content) {
   this.content = content;
@@ -21,8 +16,4 @@ function Phrase(content) {
   this.palindrome = function palindrome() {
     return this.processedContent() === this.processedContent().reverse();
   }
-}
-
-Array.prototype.last = function () {
-  return this.slice(-1);
 }
