@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/iversonc/palindrome/issues"
   },
-  "homepage": "https://github.com/iversonc/palindrome#readme"
+  "homepage": "https://github.com/iversonc/palindrome#readme",
+  "directories": {
+    "test": "test"
+  }
 }
