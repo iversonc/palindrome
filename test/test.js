@@ -22,7 +22,7 @@ describe("Phrase", function() {
 
     it("should return true for a palindrome with punctuation", function() {
       let punctuatedPalindrome = new Phrase("Madam, I'm Adam.");
-      assert.(punctuatedPalindrome.letters() === "MadamImAdam";
+      assert(punctuatedPalindrome.letters() === "MadamImAdam";
     });
   });
 
